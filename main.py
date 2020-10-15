@@ -9,8 +9,8 @@ from fairness import Satisfaction,Ginni
 import pickle
 #from plots import satisfaction_plot
 iteration_time = 30 #iteration time in seconds
-credit_edges = [100,300]
-iterations = 30
+credit_edges = [100,300] #calibrate credits gap
+iterations = 30 # continious recalculation iterations number 
 Sc_dict = {}
 S_dict = {}
 demands_dict = {}
