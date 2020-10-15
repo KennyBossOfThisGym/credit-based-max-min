@@ -6,5 +6,5 @@ Requires docker container with mysql + n number of empty containers for network 
 Adjust following values in main.py and start:\
 iteration_time = 30 #iteration time in seconds\
 credit_edges = [100,300] #calibrate credits gap\
-iterations = 30 # continious recalculation iterations number\
+iterations = 30 # continious recalculation iterations number
 
